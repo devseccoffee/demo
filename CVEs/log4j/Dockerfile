@@ -1,4 +1,4 @@
-FROM cgr.dev/chainguard/maven as builder 
+FROM maven as builder 
 
 COPY . /home/build
 WORKDIR /home/build
